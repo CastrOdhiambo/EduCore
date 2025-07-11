@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>EduCore Registration</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+  <h2>EduCore - Register</h2>
+
+  <form action="register.php" method="POST">
+    <input name="name" placeholder="Full Name" required>
+    <input name="email" type="email" placeholder="Email" required>
+    <input name="password" type="password" placeholder="Password" required>
+    <select name="role">
+      <option value="student">Student</option>
+      <option value="teacher">Teacher</option>
+    </select>
+    <input name="class" placeholder="Class (e.g. Form 3)">
+    <select name="gender">
+      <option value="male">Male</option>
+      <option value="female">Female</option>
+    </select>
+    <button type="submit">Register</button>
+  </form>
+
+</body>
+</html>
